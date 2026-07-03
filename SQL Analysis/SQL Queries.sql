@@ -6,6 +6,7 @@ select * from results limit 10;
 select * from driver_standings limit 10;
 select * from constructor_standings limit 10;
 
+-- Fetch Column Names
 select column_name
 from information_schema.columns
 where table_name='drivers'
